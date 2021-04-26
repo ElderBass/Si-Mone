@@ -1,0 +1,52 @@
+.albumContainer {
+    display: flex;
+    padding: 25px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#latestRelease {
+    font-size: 28px;
+    color: #032a52;
+    text-align: center;
+}
+
+#album-art {
+    width: 340px;
+    height: 340px;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+
+.albumName {
+    font-size: 48px;
+    color: #032a52;
+    text-align: center;
+    margin-top: 0px;
+}
+
+#listenNow {
+    background-color: #174726;
+    border: solid 3px #174726;
+    outline: none;
+    color: white;
+    font-size: 32px;
+    /* float: right; */
+    padding: 10px;
+    width: 100%;
+}
+
+#listenNow:hover {
+    background-color: #032a52;
+    border: solid 3px #032a52;
+    cursor: pointer;
+}
+
+.listenBtnDiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
